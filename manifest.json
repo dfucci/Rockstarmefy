@@ -1,0 +1,31 @@
+{
+    "BundleType": "Application",
+    "AppIcon": {
+        "36x18": "tutorial.png"
+    },
+    "AppName": {
+        "en": "Rockstarmefy"
+    },
+    "SupportedLanguages": [
+        "en"
+    ],
+    "RequiredPermissions": [
+        "http://*.echonest.com",
+        "*.echonest.com",
+        "http://developer.echonest.com",
+        "http://*.twitter.com",
+        "http://api.twitter.com",
+        "http://api.twitter.com/1/statuses/",
+        "https://*.twitter.com",
+        "https://api.twitter.com",
+        "https://*.twitter.com/1/statuses/",
+        "http://maps.googleapis.com",
+        "http://*.googleapis.com",
+        "http://maps.gstatic.com",
+        "http://*.gstatic.com",
+        "http://api.songkick.com",
+        "http://*.songkick.com",
+        "http://api.songkick.com/api/3.0/search/"
+
+    ]
+}

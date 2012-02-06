@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My First App</title>
+    <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/OAuthSimple.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Google Maps -->
+
+    <style type="text/css">
+      html { height: 100% }
+      body { height: 100%; margin: 0; padding: 0 }
+      #map_canvas { height: 100% }
+    </style>
+    <script type="text/javascript"
+      src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBJXbbVw_1BxKO1gBzOwqxOSYcXpejbG_c&sensor=true">
+    </script>
+
+</head>
+<body onLoad="init()">
+<div id="header">
+<h1>Rockstar-ME-fy</h1>
+</div>
+
+<div id="artist">ciao</div>
+<div id="errors"></div>
+<div id="tweets">
+<ul></ul>
+</div>
+<div id="location"></div>
+<div id="map_canvas" style="width:100%; height:100%"></div>
+</body>
+</html>

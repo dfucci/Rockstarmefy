@@ -1,0 +1,461 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"tw",
+				"tweet"
+			],
+			[
+				"art",
+				"artistUsername"
+			],
+			[
+				"artist",
+				"artistUsername"
+			],
+			[
+				"twi",
+				"twitterUsername"
+			],
+			[
+				"dat",
+				"data"
+			],
+			[
+				"de",
+				"developer"
+			],
+			[
+				"if",
+				"ife	If .. Else"
+			],
+			[
+				"arti",
+				"artist"
+			],
+			[
+				"api",
+				"api_key"
+			],
+			[
+				"trac",
+				"trackInfo"
+			],
+			[
+				"ala",
+				"alarmStatus"
+			],
+			[
+				"p",
+				"populateChuncks"
+			],
+			[
+				"tot",
+				"tot_chunk_duration"
+			],
+			[
+				"max",
+				"max_bpm"
+			],
+			[
+				"get",
+				"getJSON"
+			],
+			[
+				"song",
+				"songs"
+			],
+			[
+				"ch",
+				"chunck"
+			],
+			[
+				"ma",
+				"max_bpm"
+			],
+			[
+				"ge",
+				"getJSON"
+			],
+			[
+				"pla",
+				"playlist"
+			],
+			[
+				"res",
+				"results"
+			],
+			[
+				"jso",
+				"json_encode"
+			],
+			[
+				"spot",
+				"spotify_url"
+			],
+			[
+				"e",
+				"event_add"
+			],
+			[
+				"array_p",
+				"array_push"
+			],
+			[
+				"spo",
+				"spotify_array"
+			],
+			[
+				"sp",
+				"spotify_array"
+			],
+			[
+				"co",
+				"counter"
+			],
+			[
+				"resul",
+				"result_array"
+			],
+			[
+				"min_",
+				"min_bpm"
+			],
+			[
+				"min",
+				"min_bpm"
+			],
+			[
+				"error",
+				"error_reporting"
+			],
+			[
+				"cur",
+				"curl_close"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app.coffee",
+			"settings":
+			{
+				"buffer_size": 1619,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 1201,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app.js",
+			"settings":
+			{
+				"buffer_size": 1896,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/CoffeeScript/Commands/CoffeeScript.sublime-build",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"",
+				"Convert Case: Upper Case"
+			],
+			[
+				"p",
+				"Package Control: Disable Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"instla",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"package ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Discover Packages"
+			],
+			[
+				"soda",
+				"Preferences: Global Settings - Default"
+			],
+			[
+				"package inst",
+				"Package Control: Install Package"
+			],
+			[
+				"package instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 490.0
+	},
+	"console":
+	{
+		"height": 146.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/davi/Spotify/Rockstarmefy/app.js",
+		"/Users/davi/Spotify/Rockstarmefy/app.coffee",
+		"/Users/davi/Rockstarmefy/index.html",
+		"/Users/davi/Library/Application Support/Sublime Text 2/Packages/User/coffeescript.sublime-build",
+		"/Users/davi/Library/Application Support/Sublime Text 2/Packages/User/Base File.sublime-settings",
+		"/Users/davi/Spotify/wakemefy/js/script.js",
+		"/Users/davi/Spotify/wakemefy/manifest.json",
+		"/Applications/MAMP/htdocs/playlist.php",
+		"/Users/davi/Spotify/wakemefy/wakemefy.js",
+		"/Users/davi/Spotify/wakemefy/index.html",
+		"/Users/davi/Spotify/Tutorial/tutorial.js",
+		"/Users/davi/Spotify/wakemefy/wakemify.js",
+		"/Users/davi/Spotify/Tutorial/index.html",
+		"/Users/davi/Dropbox/OOH/Spotify/functions.coffee",
+		"/Users/davi/Spotify/manifest.json",
+		"/Users/davi/Dropbox/TOL/Ph.D./Software Quality and Testing Lab/Hackystat TDD Lab/SRC/1633094/BSK1633094/atests/ATestAbortGame.java",
+		"/Users/davi/Library/Application Support/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
+		"/Users/davi/Library/Application Support/Sublime Text 2/Packages/User/Global.sublime-settings",
+		"/Users/davi/Library/Application Support/Sublime Text 2/Packages/Default/Global.sublime-settings",
+		"/Users/davi/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/davi/Library/Application Support/Sublime Text 2/Packages/User/Package Control.sublime-settings"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"rockstarmefy",
+			"tutorial",
+			"setInterval",
+			"span",
+			"style",
+			"1",
+			"MyFrame frm3 = new MyFrame",
+			"Greeter"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app.coffee",
+					"settings":
+					{
+						"buffer_size": 1619,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								537,
+								537
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CoffeeScript/Syntaxes/CoffeeScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 1201,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7,
+								7
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app.js",
+					"settings":
+					{
+						"buffer_size": 1896,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								389,
+								154
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"gree",
+				"tests/Greeter.coffee"
+			],
+			[
+				"so",
+				"/Users/davi/Library/Application Support/Sublime Text 2/Packages/User/Global.sublime-settings"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 137.0,
+	"status_bar_visible": true
+}
