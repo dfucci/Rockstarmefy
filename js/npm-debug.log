@@ -1,0 +1,66 @@
+info it worked if it ends with ok
+verbose cli [ 'node',
+verbose cli   '/Users/davi/.nvm/v0.6.8/bin/npm',
+verbose cli   'install',
+verbose cli   'coffeescript-growl',
+verbose cli   '-g' ]
+info using npm@1.1.0-3
+info using node@v0.6.8
+verbose config file /Users/davi/.npmrc
+verbose config file /Users/davi/.nvm/v0.6.8/etc/npmrc
+verbose config file /Users/davi/.nvm/v0.6.8/lib/node_modules/npm/npmrc
+silly exec /Users/davi/.nvm/v0.6.8/bin/node "/Users/davi/.nvm/v0.6.8/lib/node_modules/npm/bin/npm-get-uid-gid.js" "nobody" 20
+silly spawning [ '/Users/davi/.nvm/v0.6.8/bin/node',
+silly spawning   [ '/Users/davi/.nvm/v0.6.8/lib/node_modules/npm/bin/npm-get-uid-gid.js',
+silly spawning     'nobody',
+silly spawning     20 ],
+silly spawning   null ]
+silly output from getuid/gid {"uid":-2,"gid":20}
+silly output from getuid/gid 
+verbose cache add [ 'coffeescript-growl', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'coffeescript-growl',
+silly cache add: name, spec, args   [ 'coffeescript-growl', null ] ]
+verbose parsed url { pathname: 'coffeescript-growl',
+verbose parsed url   path: 'coffeescript-growl',
+verbose parsed url   href: 'coffeescript-growl' }
+verbose addNamed [ 'coffeescript-growl', '' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'coffeescript-growl', '', false ]
+verbose raw, before any munging coffeescript-growl
+verbose url resolving [ 'https://registry.npmjs.org/', './coffeescript-growl' ]
+verbose url resolved https://registry.npmjs.org/coffeescript-growl
+verbose etag "4PKVT915PDGT5BGB3J1BWVINT"
+http GET https://registry.npmjs.org/coffeescript-growl
+http 304 https://registry.npmjs.org/coffeescript-growl
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.1.0 (Erlang OTP/R14B04)',
+silly get cb     etag: '"4PKVT915PDGT5BGB3J1BWVINT"',
+silly get cb     date: 'Mon, 06 Feb 2012 13:46:09 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag coffeescript-growl from cache
+silly name, range, hasData 2 [ 'coffeescript-growl', '', true ]
+silly versions [ 'coffeescript-growl', [] ]
+ERR! Error: No compatible version found: coffeescript-growl
+ERR! No valid targets found.
+ERR! Perhaps not compatible with your version of node?
+ERR!     at installTargetsError (/Users/davi/.nvm/v0.6.8/lib/node_modules/npm/lib/cache.js:488:10)
+ERR!     at next_ (/Users/davi/.nvm/v0.6.8/lib/node_modules/npm/lib/cache.js:438:17)
+ERR!     at next (/Users/davi/.nvm/v0.6.8/lib/node_modules/npm/lib/cache.js:415:44)
+ERR!     at /Users/davi/.nvm/v0.6.8/lib/node_modules/npm/lib/cache.js:408:5
+ERR!     at saved (/Users/davi/.nvm/v0.6.8/lib/node_modules/npm/lib/utils/npm-registry-client/get.js:147:7)
+ERR!     at Object.oncomplete (/Users/davi/.nvm/v0.6.8/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:231:7)
+ERR! You may report this log at:
+ERR!     <http://github.com/isaacs/npm/issues>
+ERR! or email it to:
+ERR!     <npm-@googlegroups.com>
+ERR! 
+ERR! System Darwin 11.2.0
+ERR! command "node" "/Users/davi/.nvm/v0.6.8/bin/npm" "install" "coffeescript-growl" "-g"
+ERR! cwd /Users/davi/Spotify/Rockstarmefy/js
+ERR! node -v v0.6.8
+ERR! npm -v 1.1.0-3
+ERR! message No compatible version found: coffeescript-growl
+ERR! message No valid targets found.
+ERR! message Perhaps not compatible with your version of node?
+verbose exit [ 1, true ]
