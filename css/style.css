@@ -1,22 +1,83 @@
 h1 {
-	margin: 0px;
+	margin-top: 15px;
 	text-align: center;
-	font-size: 24px;
-	
+	color:#ffcc66;
+	font: italic bold 40px 'Lobster Two';
 }
-
+#me{
+	
+	color:#CC65FF;
+}
 #header {
 	position: relative;
 	top:0px;
 	margin-top: 0px;
 	height: 60px;
-	background-color: #F5A22F;
-
 }
 
 body{
-	
+	overflow: auto;
 	border: 0px;
 	padding: 0px;
 	margin:0px;
+}
+#artist{
+	margin-top:40px;
+	width:auto;
+	text-align:center;
+
+}
+#tweets {
+
+	border-top-style:solid;
+	border-top-color:#ffcc66;
+	margin:auto;
+	text-align:center;
+	width:90%;
+	height:200px;
+	
+}
+#location {
+
+	border-top-style:solid;
+	border-top-color:#ffcc66;
+	margin:auto;
+	text-align:center;
+	width:90%;
+	height:260px;
+	
+}
+
+#title_tweet {
+	margin-top:3px;
+	text-align:left;
+	color: #CC65FF;
+	font: bold italic small-caps 1em 'Lucida Grande';
+}
+
+#title_loc {
+	margin-top:3px;
+	margin-bottom:10px;
+	text-align:left;
+	color: #CC65FF;
+	font: bold italic small-caps 1em 'Lucida Grande';
+}
+
+li {
+	margin-top:7px;
+	font: normal 0.9em 'Georgia';
+	color:white;
+	text-align:left;
+	list-style-type:none;
+}
+
+#error_tweet{
+	font: 1em/1.5em 'Georgia';
+	color:#e6e6e6;
+}
+
+
+#error_loc{
+	font: 1em/1.5em 'Georgia';
+	color:#e6e6e6;
 }

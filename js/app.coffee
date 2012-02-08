@@ -3,7 +3,7 @@ m = sp.require 'sp://import/scripts/api/models'
 player = m.player
 oauth=null
 gigs_location=null
-init = () ->
+@init = () ->
 	#consumerKey = 'qEzCtrKupzRgINVubWBEWQ'
  	#consumerSecret = 'XZ9uZnAwHoxzhjhjEVlECZ2EKSMwCXOGhMqXHCQ'
     
@@ -16,7 +16,8 @@ init = () ->
 			update()
 
 cleanTwits=()->
-	$("#errors").empty()
+	$("#error_tweet").empty()
+	$("#error_loc").empty()
 	$("#tweets ul").empty()
 
 update = ()->
@@ -31,7 +32,8 @@ getCurrentArtist = () ->
 	 	artist = trackInfo.data.album.artist.name
 	else
 		artist = null
-	$("#artist").html artist
+	$("#title_tweet").html '<strong>'+artist + "</strong> latest tweets"
+	$("#title_loc").html '<strong>' +artist + "</strong> next gigs"
 	artist
 getArtistTwitterUserName = (artist) ->
 	#to be done with Echonest API
@@ -45,10 +47,10 @@ getArtistTwitterUserName = (artist) ->
 		#console.log data
 		if data.response.status.code is 0 and data.response.artist.twitter?
 			twitterUsername = data.response.artist.twitter
-			$("#artist").html twitterUsername
+			#$("#artist").html twitterUsername
 			getArtistLastTwits twitterUsername
 		else
-	  		$("#errors").html "Can't find twitter account"
+	  		$("#error_tweet").html "Can't find twitter account"
 		)
 		#twitterUsername
 	#console.log 'request ended'
@@ -70,7 +72,7 @@ getArtistLastTwits=(artistUsername) ->
 			for tweet in data
 				console.log tweet.text
 				$("#tweets ul").append $("<li>").append tweet.text
-				$('#tweets ul li').effect 'bounce'
+				#$('#tweets ul li').effect 'bounce'
 		)
 
 	###oauth.get endpoint+"screen_name="+artistUsername+"&count=5" + "&callback=?", (data) ->
@@ -101,7 +103,7 @@ getArtistGigs=(artist) ->
 			}, (data) -> #show on gmaps
 				#console.log data
 				if data.resultsPage.totalEntries == 0
-					$("#errors").html "No gigs available"
+					$("#error_loc").html "No gigs available"
 					$("#map_canvas").hide()
 				else
 					$("#map_canvas").show()
